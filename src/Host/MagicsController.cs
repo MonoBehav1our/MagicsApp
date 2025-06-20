@@ -14,7 +14,7 @@ public class MagicsController(ILogger<MagicsController> logger, IMagicsService m
     {
         try
         {
-            var result = await magicsService.CreateMagic(request);
+            var result = await magicsService.CreateAsync(request);
             //todo: logs
             return Ok(result);
         }
@@ -30,7 +30,7 @@ public class MagicsController(ILogger<MagicsController> logger, IMagicsService m
     {
         try
         {
-            var result = await magicsService.GetMagicStatus(id);
+            var result = await magicsService.GetStatusAsync(id);
             //todo: logs
             return Ok(result);
         }
@@ -46,7 +46,7 @@ public class MagicsController(ILogger<MagicsController> logger, IMagicsService m
     {
         try
         {
-            var result = await magicsService.GetMagicsByWizardId(wizardId);
+            var result = await magicsService.GetAllByWizardIdAsync(wizardId);
             //todo: logs
             return Ok(result);
         }

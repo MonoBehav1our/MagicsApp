@@ -14,7 +14,7 @@ public class WizardsController(ILogger<WizardsController> logger, IWizardService
     {
         try
         {
-            var result = await wizardService.GetWizardByFilters(request);
+            var result = await wizardService.GetByFiltersAsync(request);
             //todo: logs
             return Ok(result);
         }
