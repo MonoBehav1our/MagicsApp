@@ -1,0 +1,11 @@
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\bin\Debug\net9.0\Api.Contracts.deps.json
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\bin\Debug\net9.0\Api.Contracts.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\bin\Debug\net9.0\Api.Contracts.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\Api.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\Api.Contracts.AssemblyInfoInputs.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\Api.Contracts.AssemblyInfo.cs
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\Api.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\Api.Contracts.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\refint\Api.Contracts.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\Api.Contracts.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\ref\Api.Contracts.dll
