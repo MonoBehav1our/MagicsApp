@@ -7,7 +7,7 @@ public class PostgresWizardRepository(DataContext context) : IWizardRepository
 {
     public async Task<WizardEntity> GetByFilterAsync(WizardFilter filter)
     {
-        var query = context.WizardsSet.AsQueryable();
+        var query = context.wizards.AsQueryable();
         
         if (filter.Id != null)
             query = query.Where(w => w.Id == filter.Id);

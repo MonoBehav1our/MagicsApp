@@ -9,14 +9,14 @@ public class PostgresMagicRepository(DataContext context) : IMagicRepository
     {
         ArgumentNullException.ThrowIfNull(magic);
 
-        await context.MagicsSet.AddAsync(magic);
+        await context.magics.AddAsync(magic);
         await context.SaveChangesAsync();
     }
 
     public async Task<List<MagicEntity>> GetAllByWizardIdAsync(long wizardId)
     {
-        var result = await context.MagicsSet
-            .Where(m => m.Wizard_Id == wizardId)
+        var result = await context.magics
+            .Where(m => m.WizardId == wizardId)
             .ToListAsync();
         
         return result;
@@ -24,7 +24,7 @@ public class PostgresMagicRepository(DataContext context) : IMagicRepository
     
     public async Task<MagicStatus> GetStatusAsync(Guid magicId)
     {
-        var status = await context.MagicsSet
+        var status = await context.magics
             .Where(m => m.Id == magicId)
             .Select(m => (MagicStatus?)m.Status)
             .FirstOrDefaultAsync();

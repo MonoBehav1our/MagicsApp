@@ -4,7 +4,7 @@ namespace Services.Contracts;
 
 public interface IMagicsService
 {
-    Task<CreateMagicResponse> CreateAsync(CreateMagicRequest request);
+    Task CreateAsync(CreateMagicRequest request);
     
     Task<GetWizardMagicsResponse> GetAllByWizardIdAsync(long id);
     

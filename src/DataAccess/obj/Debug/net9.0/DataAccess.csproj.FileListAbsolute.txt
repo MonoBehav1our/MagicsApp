@@ -10,3 +10,4 @@ C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\DataAccess\obj\Debug\net9.0\r
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\DataAccess\obj\Debug\net9.0\DataAccess.pdb
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\DataAccess\obj\Debug\net9.0\ref\DataAccess.dll
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\DataAccess\obj\Debug\net9.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\DataAccess\obj\Debug\net9.0\DataAccess.sourcelink.json

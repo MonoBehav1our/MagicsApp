@@ -9,3 +9,12 @@ C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\obj\Debug\net9.0\Ser
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\obj\Debug\net9.0\refint\Services.dll
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\obj\Debug\net9.0\Services.pdb
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\obj\Debug\net9.0\ref\Services.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\bin\Debug\net9.0\Api.Contracts.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\bin\Debug\net9.0\DataAccess.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\bin\Debug\net9.0\Services.Contracts.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\bin\Debug\net9.0\DataAccess.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\bin\Debug\net9.0\Services.Contracts.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\bin\Debug\net9.0\Api.Contracts.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\obj\Debug\net9.0\Services.csproj.AssemblyReference.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\obj\Debug\net9.0\Services.sourcelink.json
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services\obj\Debug\net9.0\Services.csproj.Up2Date

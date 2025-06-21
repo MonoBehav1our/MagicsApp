@@ -9,3 +9,8 @@ C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services.Contracts\obj\Debug\
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services.Contracts\obj\Debug\net9.0\refint\Services.Contracts.dll
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services.Contracts\obj\Debug\net9.0\Services.Contracts.pdb
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services.Contracts\obj\Debug\net9.0\ref\Services.Contracts.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services.Contracts\bin\Debug\net9.0\Api.Contracts.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services.Contracts\bin\Debug\net9.0\Api.Contracts.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services.Contracts\obj\Debug\net9.0\Services.Contracts.csproj.AssemblyReference.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services.Contracts\obj\Debug\net9.0\Services.Contracts.sourcelink.json
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Services.Contracts\obj\Debug\net9.0\Services.70B79F52.Up2Date

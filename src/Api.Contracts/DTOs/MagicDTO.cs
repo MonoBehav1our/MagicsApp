@@ -2,7 +2,7 @@
 
 public record MagicDTO()
 {
-    public required Guid Id { get; init; }
+    public Guid Id { get; init; }
     
     public required long Wizard_Id { get; init; }
     

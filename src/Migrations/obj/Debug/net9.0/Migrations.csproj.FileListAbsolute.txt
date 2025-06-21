@@ -29,3 +29,4 @@ C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Migrations\obj\Debug\net9.0\M
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Migrations\obj\Debug\net9.0\ref\Migrations.dll
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Migrations\bin\Debug\net9.0\sql\001_create_wizards_table.sql
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Migrations\bin\Debug\net9.0\sql\002_create_magics_table.sql
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Migrations\obj\Debug\net9.0\Migrations.sourcelink.json

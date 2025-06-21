@@ -1,6 +1,6 @@
-﻿CREATE TABLE magics
+﻿CREATE TABLE Magics
 (
-    id               uuid PRIMARY KEY,
+    id               uuid PRIMARY KEY DEFAULT gen_random_uuid(),
     wizard_id        BIGINT NOT NULL,
     salary           BIGINT NOT NULL,
     experience_years INT    NOT NULL,

@@ -14,13 +14,13 @@ public class MagicsController(ILogger<MagicsController> logger, IMagicsService m
     {
         try
         {
-            var result = await magicsService.CreateAsync(request);
+            await magicsService.CreateAsync(request);
             //todo: logs
-            return Ok(result);
+            return Ok();
         }
         catch (Exception ex)
         {
-            //todo: logs
+            logger.LogError(ex, "Error creating magic");
             return BadRequest(ex.Message);
         }
     }
@@ -41,7 +41,7 @@ public class MagicsController(ILogger<MagicsController> logger, IMagicsService m
         }
     }
     
-    [HttpGet("api/wizard/{wizardId:long}/magics")]
+    [HttpGet("/api/wizard/{wizardId:long}/magics")]
     public async Task<IActionResult> GetWizardMagics(long wizardId)
     {
         try

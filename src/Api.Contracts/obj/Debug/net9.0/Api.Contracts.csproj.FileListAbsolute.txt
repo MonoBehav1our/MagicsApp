@@ -9,3 +9,4 @@ C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\refint\Api.Contracts.dll
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\Api.Contracts.pdb
 C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\ref\Api.Contracts.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Api.Contracts\obj\Debug\net9.0\Api.Contracts.sourcelink.json

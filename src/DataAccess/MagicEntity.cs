@@ -2,9 +2,9 @@
 
 public class MagicEntity
 {
-    public required Guid Id { get; init; }
+    public Guid Id { get; init; }
     
-    public required long Wizard_Id { get; init; }
+    public required long WizardId { get; init; }
     
     public required long Salary { get; init; }
     
