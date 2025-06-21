@@ -1,6 +1,7 @@
 using DataAccess;
 using DataAccess.Contracts;
 using DataAccess.Repositories.Postgres;
+using Host.Middleware;
 using Services;
 using Services.Contracts;
 
@@ -10,6 +11,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 
+
+builder.Services.AddTransient<ServiceNameMiddleware>();
 builder.Services.AddScoped<DataContext>();
 builder.Services.AddScoped<IMagicsService, MagicsService>();
 builder.Services.AddScoped<IWizardService, WizardService>();
@@ -25,6 +28,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ServiceNameMiddleware>();
 app.MapControllers();
 app.UseHttpsRedirection();
 app.Run();
