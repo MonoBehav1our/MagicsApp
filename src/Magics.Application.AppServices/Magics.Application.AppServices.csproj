@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Magics.Application.DataAccess\Magics.Application.DataAccess.csproj" />
+    <ProjectReference Include="..\Magics.Application.AppServices.Contracts\Magics.Application.AppServices.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
