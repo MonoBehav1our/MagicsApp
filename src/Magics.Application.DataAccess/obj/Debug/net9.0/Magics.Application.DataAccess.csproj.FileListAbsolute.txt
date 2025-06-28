@@ -1,0 +1,16 @@
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\Magics.Application.DataAccess.csproj.AssemblyReference.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\Magics.Application.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\Magics.Application.DataAccess.AssemblyInfoInputs.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\Magics.Application.DataAccess.AssemblyInfo.cs
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\Magics.Application.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\Magics.Application.DataAccess.sourcelink.json
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\bin\Debug\net9.0\Magics.Application.DataAccess.deps.json
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\bin\Debug\net9.0\Magics.Application.DataAccess.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\bin\Debug\net9.0\Magics.Application.DataAccess.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\bin\Debug\net9.0\Magics.Application.AppServices.Contracts.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\bin\Debug\net9.0\Magics.Application.AppServices.Contracts.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\Magics.A.11E7C991.Up2Date
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\Magics.Application.DataAccess.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\refint\Magics.Application.DataAccess.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\Magics.Application.DataAccess.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.DataAccess\obj\Debug\net9.0\ref\Magics.Application.DataAccess.dll

@@ -1,4 +1,5 @@
-﻿using Magics.Application.AppServices.Contracts.Magics.Requests;
+﻿using Magics.Application.Api.Contracts.Magics.Requests;
+using Magics.Application.AppServices.Contracts.Magics.Requests;
 
 namespace Magics.Application.Magics.Mappers;
 

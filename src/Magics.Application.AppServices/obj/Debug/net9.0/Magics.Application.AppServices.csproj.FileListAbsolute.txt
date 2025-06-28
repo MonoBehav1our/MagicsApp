@@ -1,0 +1,16 @@
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\bin\Debug\net9.0\Magics.Application.AppServices.deps.json
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\bin\Debug\net9.0\Magics.Application.AppServices.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\bin\Debug\net9.0\Magics.Application.AppServices.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\bin\Debug\net9.0\Magics.Application.AppServices.Contracts.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\bin\Debug\net9.0\Magics.Application.AppServices.Contracts.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\Magics.Application.AppServices.csproj.AssemblyReference.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\Magics.Application.AppServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\Magics.Application.AppServices.AssemblyInfoInputs.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\Magics.Application.AppServices.AssemblyInfo.cs
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\Magics.Application.AppServices.csproj.CoreCompileInputs.cache
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\Magics.Application.AppServices.sourcelink.json
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\Magics.A.AF3FCBD5.Up2Date
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\Magics.Application.AppServices.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\refint\Magics.Application.AppServices.dll
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\Magics.Application.AppServices.pdb
+C:\Users\MonoBehaviour\RiderProjects\MagicsApp\src\Magics.Application.AppServices\obj\Debug\net9.0\ref\Magics.Application.AppServices.dll

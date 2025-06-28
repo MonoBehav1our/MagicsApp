@@ -1,4 +1,6 @@
-﻿using Magics.Application.AppServices.Contracts.Magics.Responses;
+﻿using Magics.Application.Api.Contracts.Magics.Models;
+using Magics.Application.Api.Contracts.Magics.Responses;
+using Magics.Application.AppServices.Contracts.Magics.Responses;
 
 namespace Magics.Application.Magics.Mappers;
 

@@ -374,6 +374,16 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Magics.Application.Api.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Magics.Application.Api.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Magics.Application.Api.Contracts.dll": {}
+        }
+      },
       "Magics.Application.AppServices/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -986,6 +996,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "Magics.Application.Api.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Magics.Application.Api.Contracts/Magics.Application.Api.Contracts.csproj",
+      "msbuildProject": "../Magics.Application.Api.Contracts/Magics.Application.Api.Contracts.csproj"
+    },
     "Magics.Application.AppServices/1.0.0": {
       "type": "project",
       "path": "../Magics.Application.AppServices/Magics.Application.AppServices.csproj",
@@ -1004,6 +1019,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Magics.Application.Api.Contracts >= 1.0.0",
       "Magics.Application.AppServices >= 1.0.0",
       "Magics.Application.AppServices.Contracts >= 1.0.0",
       "Magics.Application.DataAccess >= 1.0.0",
@@ -1037,6 +1053,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.Api.Contracts\\Magics.Application.Api.Contracts.csproj": {
+              "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.Api.Contracts\\Magics.Application.Api.Contracts.csproj"
+            },
             "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj": {
               "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj"
             },

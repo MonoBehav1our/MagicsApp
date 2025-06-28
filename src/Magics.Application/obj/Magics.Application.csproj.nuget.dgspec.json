@@ -1,0 +1,347 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application\\Magics.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.Api.Contracts\\Magics.Application.Api.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.Api.Contracts\\Magics.Application.Api.Contracts.csproj",
+        "projectName": "Magics.Application.Api.Contracts",
+        "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.Api.Contracts\\Magics.Application.Api.Contracts.csproj",
+        "packagesPath": "C:\\Users\\MonoBehaviour\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.Api.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\MonoBehaviour\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj",
+        "projectName": "Magics.Application.AppServices.Contracts",
+        "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj",
+        "packagesPath": "C:\\Users\\MonoBehaviour\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\MonoBehaviour\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices\\Magics.Application.AppServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices\\Magics.Application.AppServices.csproj",
+        "projectName": "Magics.Application.AppServices",
+        "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices\\Magics.Application.AppServices.csproj",
+        "packagesPath": "C:\\Users\\MonoBehaviour\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\MonoBehaviour\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj": {
+                "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.DataAccess\\Magics.Application.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.DataAccess\\Magics.Application.DataAccess.csproj",
+        "projectName": "Magics.Application.DataAccess",
+        "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.DataAccess\\Magics.Application.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\MonoBehaviour\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\MonoBehaviour\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj": {
+                "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application\\Magics.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application\\Magics.Application.csproj",
+        "projectName": "Magics.Application",
+        "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application\\Magics.Application.csproj",
+        "packagesPath": "C:\\Users\\MonoBehaviour\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\MonoBehaviour\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.Api.Contracts\\Magics.Application.Api.Contracts.csproj": {
+                "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.Api.Contracts\\Magics.Application.Api.Contracts.csproj"
+              },
+              "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj": {
+                "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices.Contracts\\Magics.Application.AppServices.Contracts.csproj"
+              },
+              "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices\\Magics.Application.AppServices.csproj": {
+                "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.AppServices\\Magics.Application.AppServices.csproj"
+              },
+              "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.DataAccess\\Magics.Application.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.DataAccess\\Magics.Application.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

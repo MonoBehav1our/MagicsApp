@@ -1,4 +1,6 @@
-﻿using Magics.Application.AppServices.Contracts.Wizards.Handers;
+﻿using Magics.Application.Api.Contracts.Wizards.Requests;
+using Magics.Application.Api.Contracts.Wizards.Responses;
+using Magics.Application.AppServices.Contracts.Wizards.Handers;
 using Magics.Application.Wizards.Mappers;
 using Microsoft.AspNetCore.Mvc;
 
