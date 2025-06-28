@@ -1,5 +1,4 @@
-﻿using Magics.Application.AppServices.Contracts.Magics.Enums;
-using Magics.Application.AppServices.Contracts.Magics.Models;
+﻿using Magics.Application.AppServices.Contracts.Magics.Models;
 using Magics.Application.DataAccess.Magics.Entity;
 
 namespace Magics.Application.DataAccess.Magics.Mappers;

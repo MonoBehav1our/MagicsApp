@@ -265,22 +265,9 @@
           }
         }
       },
-      "Magics.Application.Api.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/Magics.Application.Api.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Magics.Application.Api.Contracts.dll": {}
-        }
-      },
       "Magics.Application.AppServices.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Magics.Application.Api.Contracts": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Magics.Application.AppServices.Contracts.dll": {}
         },
@@ -700,11 +687,6 @@
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
       ]
-    },
-    "Magics.Application.Api.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../Magics.Application.Api.Contracts/Magics.Application.Api.Contracts.csproj",
-      "msbuildProject": "../Magics.Application.Api.Contracts/Magics.Application.Api.Contracts.csproj"
     },
     "Magics.Application.AppServices.Contracts/1.0.0": {
       "type": "project",

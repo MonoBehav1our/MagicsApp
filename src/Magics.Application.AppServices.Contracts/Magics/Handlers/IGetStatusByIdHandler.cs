@@ -1,6 +1,8 @@
-﻿namespace Magics.Application.AppServices.Contracts.Magics.Handlers;
+﻿using Magics.Application.AppServices.Contracts.Magics.Enums;
+
+namespace Magics.Application.AppServices.Contracts.Magics.Handlers;
 
 public interface IGetStatusByIdHandler
 {
-    Task<string> Handle(Guid magicId);
+    Task<MagicStatus> Handle(Guid magicId);
 }

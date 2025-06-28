@@ -7,7 +7,7 @@ public interface IMagicRepository
 {
     Task CreateAsync(Magic magic);
     
-    Task<List<Magic>> GetAllByWizardIdAsync(long wizardId);
+    Task<List<Magic>> GetWizardMagicsAsync(long wizardId);
     
     Task<MagicStatus> GetStatusAsync(Guid magicId);
 }

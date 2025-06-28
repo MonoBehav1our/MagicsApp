@@ -4,5 +4,5 @@ namespace Magics.Application.AppServices.Contracts.Wizards.Repository;
 
 public interface IWizardRepository
 {
-    Task<Wizard> GetByFilterAsync(WizardFilter filter);
+    Task<List<Wizard>> GetByFilterAsync(WizardFilter filter);
 }

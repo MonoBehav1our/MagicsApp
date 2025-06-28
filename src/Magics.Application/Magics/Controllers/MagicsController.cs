@@ -1,6 +1,4 @@
-﻿using Magics.Application.Api.Contracts.Magics.Requests;
-using Magics.Application.Api.Contracts.Magics.Responses;
-using Magics.Application.AppServices.Contracts.Magics.Handlers;
+﻿using Magics.Application.AppServices.Contracts.Magics.Handlers;
 using Magics.Application.Magics.Mappers;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,11 +14,11 @@ public class MagicsController(
     : ControllerBase
 {
     [HttpPost]
-    public async Task CreateMagic([FromBody] CreateRequest request)
+    public async Task CreateMagic([FromBody] CreateMagicRequest magicRequest)
     {
         logger.LogInformation("Создание заявки...");
 
-        await createMagicHandler.Handle(request.ToInternal());
+        await createMagicHandler.Handle(magicRequest.ToInternal());
 
         logger.LogInformation("Заявка создана");
     }
@@ -36,7 +34,7 @@ public class MagicsController(
             
             logger.LogInformation("Статус получен: {Result}", result);
             
-            return result;
+            return result.ToString();
         }
         catch (Exception ex)
         {

@@ -1,25 +1,22 @@
-﻿using Magics.Application.AppServices.Contracts.Magics.Enums;
+﻿using Magics.Application.AppServices.Contracts.Infrastructure.Exceptions;
 using Magics.Application.AppServices.Contracts.Magics.Handlers;
-using Magics.Application.AppServices.Contracts.Magics.Models;
 using Magics.Application.AppServices.Contracts.Magics.Repository;
 using Magics.Application.AppServices.Contracts.Magics.Requests;
+using Magics.Application.AppServices.Contracts.Wizards.Models;
+using Magics.Application.AppServices.Contracts.Wizards.Repository;
+using Magics.Application.AppServices.Magics.Mappers;
 
 namespace Magics.Application.AppServices.Magics.Handlers;
 
-public class CreateMagicHandler(IMagicRepository repository) : ICreateMagicHandler
+public class CreateMagicHandler(IMagicRepository repository, IWizardRepository wizardRepository) : ICreateMagicHandler
 {
-    public async Task Handle(CreateInternalRequest request)
+    public async Task Handle(CreateMagicInternalRequest request)
     {
-        var magicEntity = new Magic
-        {
-            WizardId = request.Wizard_Id,
-            Salary = request.Salary,
-            ExperienceYears = request.ExperienceYears,
-            DesiredSkill = request.DesiredSkill,
-            Status = MagicStatus.Pending,
-            CreatedAt = request.CreatedAt?.ToUniversalTime() ?? DateTime.UtcNow,
-        };
+        var filterById = new WizardFilter { Id = request.Wizard_Id };
+        _ = await wizardRepository.GetByFilterAsync(filterById)
+            ?? throw new NotFoundException();
 
-        await repository.CreateAsync(magicEntity);
+        var magic = request.ToMagicModel();
+        await repository.CreateAsync(magic);
     }
 }

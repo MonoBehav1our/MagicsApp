@@ -4,5 +4,5 @@ namespace Magics.Application.AppServices.Contracts.Magics.Handlers;
 
 public interface ICreateMagicHandler
 {
-    Task Handle(CreateInternalRequest request);
+    Task Handle(CreateMagicInternalRequest request);
 }

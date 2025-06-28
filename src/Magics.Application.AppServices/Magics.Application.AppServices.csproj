@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Magics.Application.DataAccess\Magics.Application.DataAccess.csproj" />
     <ProjectReference Include="..\Magics.Application.AppServices.Contracts\Magics.Application.AppServices.Contracts.csproj" />
   </ItemGroup>
 

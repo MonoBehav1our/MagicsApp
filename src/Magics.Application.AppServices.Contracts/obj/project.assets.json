@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "Magics.Application.Api.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/Magics.Application.Api.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Magics.Application.Api.Contracts.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "Magics.Application.Api.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../Magics.Application.Api.Contracts/Magics.Application.Api.Contracts.csproj",
-      "msbuildProject": "../Magics.Application.Api.Contracts/Magics.Application.Api.Contracts.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "Magics.Application.Api.Contracts >= 1.0.0"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "C:\\Users\\MonoBehaviour\\.nuget\\packages\\": {}
@@ -51,11 +32,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.Api.Contracts\\Magics.Application.Api.Contracts.csproj": {
-              "projectPath": "C:\\Users\\MonoBehaviour\\RiderProjects\\MagicsApp\\src\\Magics.Application.Api.Contracts\\Magics.Application.Api.Contracts.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

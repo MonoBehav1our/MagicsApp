@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Magics.Application.Api.Contracts\Magics.Application.Api.Contracts.csproj" />
   </ItemGroup>
   
 </Project>

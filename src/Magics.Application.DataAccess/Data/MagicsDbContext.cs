@@ -1,18 +1,14 @@
 ﻿using Magics.Application.DataAccess.Magics.Entity;
 using Magics.Application.DataAccess.Wizards.Entity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace Magics.Application.DataAccess.Data;
 
-public class MagicsDbContext(IConfiguration config) : DbContext
+public class MagicsDbContext(DbContextOptions options) : DbContext(options)
 {
     public DbSet<WizardEntity> wizards { get; set; }
 
     public DbSet<MagicEntity> magics { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => 
-        optionsBuilder.UseNpgsql(config.GetConnectionString("Postgres"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
